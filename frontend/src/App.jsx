@@ -6,6 +6,9 @@ import Footer from "./components/Footer"
 import ServicesCards from "./components/ServicesCards"
 import ConsultationForm from "./components/ConsultationForm"
 import About from "./components/About"
+import Pricing from "./components/Pricing"
+import WhyChooseMe from "./components/WhyChooseMe"
+import FAQ from "./components/FAQ"
 
 export default function App() {
   return (
@@ -16,7 +19,10 @@ export default function App() {
       <ConsultationForm />
       <About />
       <Services />
-      <Contact />
+      <Services />
+      <Pricing />
+      <WhyChooseMe />
+      <FAQ />
       <Footer /> 
     </div>
   )
