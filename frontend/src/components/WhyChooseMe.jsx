@@ -66,7 +66,11 @@ export default function WhyChooseMe() {
             </div>
           ))}
         </div>
-
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         {/* COMPLETED PROJECTS */}
         <div className="text-center mb-12">
           <p className="text-blue-500 font-semibold mb-2">

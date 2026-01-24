@@ -50,7 +50,7 @@ export default function Footer() {
             <div>
               <p className="text-blue-400 font-semibold mb-2">Contact</p>
               <p className="text-sm text-gray-300">
-                lokesh.dev@lokeshdevcoder.com
+                zeelgajjar123@gmail.com
               </p>
             </div>
 
@@ -58,7 +58,7 @@ export default function Footer() {
             <div>
               <p className="text-blue-400 font-semibold mb-2">Based in</p>
               <p className="text-sm text-gray-300">
-                Delhi, India
+                Surat, India
               </p>
             </div>
 
