@@ -1,11 +1,11 @@
 export default function ConsultationForm() {
   return (
-    <section className="bg-[#0b0b0b] py-24 text-white">
-      <div className="max-w-5xl mx-auto px-6">
+    <section id="getfreequote" className="bg-[#0b0b0b] py-24 text-white">
+      <div  className="max-w-5xl mx-auto px-6">
 
         {/* TITLE */}
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-500 mb-2">
+          <h2  className="text-3xl md:text-4xl font-bold text-blue-500 mb-2">
             Book a Free Consultation Call
           </h2>
           <p className="text-gray-400 text-sm">

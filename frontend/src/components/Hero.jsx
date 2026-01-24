@@ -42,7 +42,7 @@ export default function Hero() {
         {/* RIGHT IMAGE */}
         <div className="flex justify-center md:justify-end">
           <img
-            src="https://via.placeholder.com/420x520"
+            src="/src/assets/images/zeelhero.png"
             alt="Zeel Gajjar"
             className="rounded-xl object-cover grayscale"
           />

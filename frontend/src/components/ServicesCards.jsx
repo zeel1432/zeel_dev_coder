@@ -24,8 +24,8 @@ const cards = [
 
 export default function ServicesCards() {
   return (
-    <section className="bg-[#0b0b0b] py-20">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="bg-[#0b0b0b] py-0">
+      <div className="max-w-6x0 mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8 place-items-center">
           {cards.map((card, index) => (
             <div

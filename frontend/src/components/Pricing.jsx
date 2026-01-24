@@ -82,8 +82,8 @@ const plans = [
 
 export default function Pricing() {
   return (
-    <section className="bg-[#0b0b0b] py-28 text-white">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="ourplans" className="bg-[#0b0b0b] py-28 text-white">
+      <div  className="max-w-7xl mx-auto px-6">
 
         {/* HEADER */}
         <div className="text-center mb-10">

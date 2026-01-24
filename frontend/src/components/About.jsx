@@ -1,11 +1,11 @@
 export default function About() {
   return (
-    <section className="bg-[#0b0b0b] py-24 text-white">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <section  className="bg-[#0b0b0b] py-24 text-white">
+      <div id="aboutus" className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
         {/* LEFT CONTENT */}
         <div>
-          <p className="text-blue-500 font-semibold mb-3">
+          <p  className="text-blue-500 font-semibold mb-3">
             About Me!
           </p>
 
@@ -36,8 +36,12 @@ export default function About() {
 
         {/* RIGHT IMAGE (PLACEHOLDER) */}
         <div className="flex justify-center md:justify-end">
-          <div className="w-[300px] md:w-[360px] h-[420px] bg-[#111] border border-white/10 rounded-xl flex items-center justify-center text-gray-500">
-            Image Placeholder
+          <div className="flex items-center justify-center text-gray-500">
+            <img
+            src="/src/assets/images/zeelabout.png"
+            alt="Zeel Gajjar"
+            className="rounded-xl object-cover grayscale"
+          />
           </div>
         </div>
 

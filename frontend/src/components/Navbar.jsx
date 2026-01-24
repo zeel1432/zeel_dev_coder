@@ -13,14 +13,26 @@ export default function Navbar() {
           <a href="#home" className="hover:text-white transition">
             Home
           </a>
+          <a href="#getfreequote" className="hover:text-white transition">
+            Get free Quote
+          </a>
+          <a href="#aboutus" className="hover:text-white transition">
+            About Us
+          </a>
+          <a href="#ourplans" className="hover:text-white transition">
+            Our Plans
+          </a>
           <a href="#services" className="hover:text-white transition">
             Services
           </a>
-          <a href="#pricing" className="hover:text-white transition">
-            Pricing
+          <a href="#ourproject" className="hover:text-white transition">
+            Our Projects
           </a>
-          <a href="#contact" className="hover:text-white transition">
-            Contact
+          <a href="#faqs" className="hover:text-white transition">
+            FAQs
+          </a>
+          <a href="#blogs" className="hover:text-white transition">
+            Blogs
           </a>
         </div>
 
