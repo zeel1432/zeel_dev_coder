@@ -19,7 +19,7 @@ export default function App() {
       <ConsultationForm />
       <About />
       <Services />
-      <Services />
+      {/* <Services /> */}
       <Pricing />
       <WhyChooseMe />
       <FAQ />
