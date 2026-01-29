@@ -46,7 +46,7 @@ export default function ConsultationForm() {
       <div className="max-w-5xl mx-auto px-6">
         {/* TITLE */}
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-500 mb-2">
+          <h2 id="consultation" className="text-3xl md:text-4xl font-bold text-blue-500 mb-2">
             Book a Free Consultation Call
           </h2>
           <p className="text-gray-400 text-sm">
@@ -75,7 +75,7 @@ export default function ConsultationForm() {
 
         {/* FORM */}
         <div className="bg-[#111111] border border-white/10 rounded-2xl p-8 md:p-10 shadow-lg">
-          <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6">
+          <form onSubmit={handleSubmit}  className="grid md:grid-cols-2 gap-6">
             {/* Name */}
             <div>
               <label className="block text-sm text-gray-400 mb-2">Full Name</label>

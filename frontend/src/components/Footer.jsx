@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faInstagram, faLinkedinIn, faFacebookF, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+
 export default function Footer() {
   return (
     <footer className="bg-[#0b0b0b] text-white py-24 border-t border-white/5">
@@ -17,10 +20,9 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* CONTENT */}
         <div className="grid md:grid-cols-2 gap-16 items-start">
 
-          {/* LEFT: SUBSCRIBE */}
+          {/* LEFT */}
           <div>
             <p className="text-blue-400 text-sm font-semibold mb-4 tracking-widest">
               LET’S STAY IN TOUCH
@@ -43,51 +45,49 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* RIGHT: INFO */}
+          {/* RIGHT */}
           <div className="space-y-8">
 
-            {/* CONTACT */}
             <div>
               <p className="text-blue-400 font-semibold mb-2">Contact</p>
-              <p className="text-sm text-gray-300">
-                zeelgajjar123@gmail.com
-              </p>
+              <p className="text-sm text-gray-300">zeelgajjar123@gmail.com</p>
             </div>
 
-            {/* LOCATION */}
             <div>
               <p className="text-blue-400 font-semibold mb-2">Based in</p>
-              <p className="text-sm text-gray-300">
-                Surat, India
-              </p>
+              <p className="text-sm text-gray-300">Surat, India</p>
             </div>
 
-            {/* POLICIES */}
             <div>
               <p className="text-blue-400 font-semibold mb-2">Policies</p>
               <ul className="text-sm text-gray-300 space-y-2">
-                <li className="hover:text-blue-400 transition cursor-pointer">
-                  Terms and Conditions
-                </li>
-                <li className="hover:text-blue-400 transition cursor-pointer">
-                  Privacy Policy
-                </li>
-                <li className="hover:text-blue-400 transition cursor-pointer">
-                  Cancellation & Refund Policy
-                </li>
+                <li className="hover:text-blue-400 transition cursor-pointer">Terms and Conditions</li>
+                <li className="hover:text-blue-400 transition cursor-pointer">Privacy Policy</li>
+                <li className="hover:text-blue-400 transition cursor-pointer">Cancellation & Refund Policy</li>
               </ul>
             </div>
 
             {/* SOCIAL ICONS */}
             <div className="flex gap-4 pt-4">
-              {["📷", "in", "f", "💬"].map((icon, i) => (
-                <div
-                  key={i}
-                  className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-sm hover:border-blue-500 hover:text-blue-400 transition cursor-pointer"
-                >
-                  {icon}
-                </div>
-              ))}
+              <a href="https://instagram.com" target="_blank" rel="noreferrer"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-blue-500 hover:text-blue-400 transition">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+
+              <a href="www.linkedin.com/in/zeelgajjardev" target="_blank" rel="noreferrer"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-blue-500 hover:text-blue-400 transition">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+
+              <a href="https://facebook.com" target="_blank" rel="noreferrer"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-blue-500 hover:text-blue-400 transition">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+
+              <a href="https://wa.me/918758056573" target="_blank" rel="noreferrer"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-blue-500 hover:text-blue-400 transition">
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </a>
             </div>
 
           </div>
@@ -96,4 +96,3 @@ export default function Footer() {
     </footer>
   )
 }
-  

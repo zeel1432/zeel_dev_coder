@@ -5,7 +5,7 @@ export default function Navbar() {
         
         {/* LEFT: BRAND */}
         <div className="text-white text-xl font-bold">
-          Zeel<span className="text-blue-500">Gajjar</span>
+          Zeel<span className="text-blue-500">Devlops</span>
         </div>
 
         {/* CENTER: LINKS (DESKTOP) */}

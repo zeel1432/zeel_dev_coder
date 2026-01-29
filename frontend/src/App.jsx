@@ -9,11 +9,12 @@ import About from "./components/About"
 import Pricing from "./components/Pricing"
 import WhyChooseMe from "./components/WhyChooseMe"
 import FAQ from "./components/FAQ"
-
+import TopOfferBar from "./components/TopOfferBar"
 export default function App() {
   return (
     <div className="font-sans">
       <Navbar />
+      <TopOfferBar />
       <Hero />
       <ServicesCards />
       <ConsultationForm />
