@@ -38,9 +38,14 @@ export default function Navbar() {
 
         {/* RIGHT: CTA */}
         <div className="hidden md:block">
+          <a href="https://api.whatsapp.com/send/?phone=918758056573&text=Hi+Zeel%2C+I+want+a+website+quote.&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer">
+                
           <button className="bg-blue-600 hover:bg-blue-700 transition text-white text-sm font-semibold px-5 py-2.5 rounded-md">
             Book Free Call
           </button>
+              </a>
         </div>
 
         {/* MOBILE MENU ICON (simple, no libs) */}
