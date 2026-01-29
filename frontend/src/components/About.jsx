@@ -1,3 +1,5 @@
+import sideImage from "/src/assets/images/zeelabout.png";
+
 export default function About() {
   return (
     <section  className="bg-[#0b0b0b] py-24 text-white">

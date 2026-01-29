@@ -1,4 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
+import heroImage from "../assets/images/zeelhero.png";
 
 export default function Hero() {
   return (
@@ -69,7 +70,7 @@ export default function Hero() {
         {/* RIGHT IMAGE */}
         <div className="flex justify-center md:justify-end">
           <img
-            src="/src/assets/images/zeelhero.png"
+            src={heroImage}
             alt="Zeel Gajjar"
             className="rounded-xl object-cover grayscale"
           />
