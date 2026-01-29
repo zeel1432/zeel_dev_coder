@@ -40,7 +40,7 @@ export default function About() {
         <div className="flex justify-center md:justify-end">
           <div className="flex items-center justify-center text-gray-500">
             <img
-            src="/src/assets/images/zeelabout.png"
+            src={sideImage}
             alt="Zeel Gajjar"
             className="rounded-xl object-cover grayscale"
           />
